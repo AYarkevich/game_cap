@@ -1,6 +1,8 @@
 # will have compiled files and executables
 debug/
 target/
+out/
+.vscode
 
 #Here's a folder with assets
 /Assets
