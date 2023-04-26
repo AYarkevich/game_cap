@@ -22,8 +22,8 @@ impl Plugin for InfoBoardPlugin {
 }
 
 fn infotext_system(mut commands: Commands, asset_server: Res<AssetServer>) {
-    let font = asset_server.load("fonts/FiraSans-Bold.ttf");
-    let font_medium : Handle<Font> = asset_server.load("fonts/FiraMono-Medium.ttf");
+    let font = asset_server.load("fonts/Roboto-Bold.ttf");
+    let font_medium : Handle<Font> = asset_server.load("fonts/Roboto-Medium.ttf");
     commands.spawn((
         TextBundle::from_sections([
             TextSection::new(
