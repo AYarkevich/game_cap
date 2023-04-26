@@ -16,3 +16,7 @@ Cargo.lock
 
 # MSVC Windows builds of rustc generate these, which store debugging information
 *.pdb
+
+# Ignore source files from dev's brunches
+src/
+Cargo.toml
